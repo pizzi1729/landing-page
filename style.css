@@ -24,7 +24,7 @@ header {
 }
 
 .menu ul {
-        list-style-type: none;
+    list-style-type: none;
 }
 
 .menu li {
@@ -151,12 +151,20 @@ main {
     border: 2px solid white;
     border-radius: 12px;
     height: 50px;
-    width: 100px;
-    
+    width: 100px;    
 }
 
 footer {
+    background-color: #253140;
+    color: white;
+    padding: 2% 5% 2% 5%;
+    height: auto;
+    display: flex;
+}
 
+footer p {
+    font-size: 12px;
+    margin: auto;
 }
 
 
