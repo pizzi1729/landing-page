@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #253140;
+    background-color: #1F2937;
     color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
@@ -14,12 +14,14 @@ header {
 }
 
 .logo {
-    font-size: 12px;
+    color: #F9FAF8;
+    font-size: 24px;
     width: 50%;
 }
 
 .menu {
-    font-size: 12px;
+    color: #E5E7EB;
+    font-size: 18px;
     margin-left: auto;
     margin-right: 0;    
 }
@@ -46,12 +48,20 @@ header {
     height: 300px;
 }
 
+.hero.paragraph h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
 .hero.paragraph p {
     margin-right: 50px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero.paragraph button {
-    background-color: #3D8BF2;
+    background-color: #3882F6;
     font-size: 14px;
     color: #F2F2F2;
     border: none;
@@ -78,6 +88,9 @@ main {
 }
 
 .information h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
     margin: 3% 0 0 0;
     width: 100%;
 }
@@ -103,12 +116,14 @@ main {
 }
 
 .quotation {
-    background-color: #d6d6d6;
+    background-color: #E5E7EB;
     padding: 5% 15% 5% 15%;
 }
 
 .quotation p {
-    font-weight: 300;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
     text-align: left;
     text-justify: inter-word; 
     margin: auto;
@@ -116,7 +131,7 @@ main {
 }
 
 .quotation h4 {
-    font-size: 12px;
+    font-size: 24px;
     text-align: right;
     text-justify: inter-word; 
     margin: auto;
@@ -147,7 +162,7 @@ main {
 }
 
 .sign-up button {
-    background-color: #3D8BF2;
+    background-color: #3882F6;
     font-size: 14px;
     color: #F2F2F2;
     border: 2px solid white;
@@ -157,7 +172,7 @@ main {
 }
 
 footer {
-    background-color: #253140;
+    background-color: #1F2937;
     color: white;
     padding: 2% 5% 2% 5%;
     height: auto;
